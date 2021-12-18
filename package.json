@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "tape",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "tape  -r @babel/register src/*.spec.js",
+    "coverage": "nyc npm run test",
+    "test:tape:spec": "npm run test | tap-spec",
+    "test:tape:dot": "npm run test | tap-dot",
+    "test:tape:tnyan": "npm run test | tnyan",
+    "test:tape:prettify": "tap-prettify src/*.spec.js",
+    "test:tape:diff": "npm run test | tap-diff",
+    "test:tape:notify": "npm run test | tap-notify"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
+    "nyc": "^15.1.0",
+    "tap-diff": "^0.1.1",
+    "tap-dot": "^2.0.0",
+    "tap-notify": "^1.0.0",
+    "tap-nyan": "^1.1.0",
+    "tap-prettify": "^0.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.2"
+  }
+}
