@@ -20,8 +20,8 @@
     "test:tape:notify": "npm run test | tap-notify"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.4",
-    "@babel/register": "^7.16.0",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
     "nyc": "^15.1.0",
     "tap-diff": "^0.1.1",
     "tap-dot": "^2.0.0",
