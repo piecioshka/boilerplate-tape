@@ -1,3 +1,3 @@
 # boilerplate-tape-babel
 
-🍴 Starter with Tape
+🍴 Starter with Tape & Babel.js
