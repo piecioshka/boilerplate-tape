@@ -30,5 +30,9 @@
     "tap-prettify": "^0.0.2",
     "tap-spec": "^5.0.0",
     "tape": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/boilerplate-tape-babel.git"
   }
 }
