@@ -1,8 +1,14 @@
 {
   "private": true,
-  "name": "tape",
-  "version": "0.0.0",
+  "name": "boilerplate-tape",
   "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
   "scripts": {
     "test": "tape  -r @babel/register src/*.spec.js",
     "coverage": "nyc npm run test",
