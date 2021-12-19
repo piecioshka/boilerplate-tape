@@ -10,7 +10,7 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "test": "tape  -r @babel/register src/*.spec.js",
+    "test": "tape -r @babel/register src/*.spec.js",
     "coverage": "nyc npm run test",
     "test:tape:spec": "npm run test | tap-spec",
     "test:tape:dot": "npm run test | tap-dot",
